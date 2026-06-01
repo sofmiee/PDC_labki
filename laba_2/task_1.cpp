@@ -35,7 +35,7 @@ void split_task() {
 void failure_monitor() {
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_int_distribution<> dis_time(3000, 7000);
+    std::uniform_int_distribution<> dis_time(3, 7);
 
     std::this_thread::sleep_for(std::chrono::seconds(dis_time(gen)));
 

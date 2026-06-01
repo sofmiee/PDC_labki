@@ -8,7 +8,7 @@
 #include <semaphore>
 #include <vector>
 #include <atomic>
-/*
+
 // глобальные переменные
 std::priority_queue<DataPacket> queue;
 std::mutex queue_mutex, output_mutex;
